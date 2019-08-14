@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <chandantestimonial translate="label" module="testimonial">
+            <label>Testimonial Setting</label>
+            <sort_order>100</sort_order>
+        </chandantestimonial>
+    </tabs>
+    <sections>
+        <chandantestimonial translate="label" module="testimonial">
+            <label>Testimonial Options</label>
+            <tab>chandantestimonial</tab>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <testimonial_group translate="label" module="testimonial">
+                    <label>Testimonial Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>					
+						<testimonial_status translate="label">
+                            <label>Testimonial Status: </label>                            
+                            <frontend_type>select</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </testimonial_status>		
+
+						<testimonial_frontend translate="label">
+                            <label>Add Frontend Testimonial: </label>                            
+                            <frontend_type>select</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </testimonial_frontend>								
+                    </fields>
+                </testimonial_group>
+            </groups>
+        </chandantestimonial>
+    </sections>
+</config>

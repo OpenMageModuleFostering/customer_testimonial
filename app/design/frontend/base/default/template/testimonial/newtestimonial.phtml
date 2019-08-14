@@ -1,0 +1,64 @@
+<div class="account-create">
+    <div class="page-title">
+        <h1>Create an Testimonial</h1>
+    </div>
+	
+	<div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+	
+	<form action="<?php echo $this->getUrl(); ?>testimonial/index/createpost/" method="post" id="form-validate" class="scaffold-form" enctype="multipart/form-data">
+		<input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+        <div class="fieldset">
+			<p class="form-instructions">Please enter the following information to create your testimonial.</p>
+            <p class="required">* Required Fields</p>
+            <ul class="form-list">
+                <li class="fields">                  						
+					<div class="field">
+						<label for="name" class="required"><em>*</em>Name</label>
+						<div class="input-box">
+							<input type="text" id="name" name="name" value="" title="Name" maxlength="255" class="input-text required-entry" required>
+						</div>
+					</div>
+				 </li>
+                                                                        			
+            	<li class="fields">
+					<div class="field">
+						<label for="companyname">Company Name</label>
+						<div class="input-box">
+							<input type="text" id="companyname" name="companyname" value="" title="Company Name" class="input-text ">
+						</div>
+					</div>
+				 </li>
+                                                                        			
+            	<li class="fields">		
+					<div class="field">
+						<label for="desigination">Desigination</label>
+						<div class="input-box">
+							<input type="text" id="desigination" name="desigination" value="" title="Last Name" maxlength="255" class="input-text">
+						</div>						
+					</div>
+                </li>
+                
+				<li>
+					<div class="field">
+						<label for="content" class="required"><em>*</em>Message</label>
+						<div class="input-box">
+						<textarea autocapitalize="off" title="Message"  autocorrect="off" spellcheck="false" name="content" id="content" rows="4" class="input-text required-entry" cols="50" required></textarea>							
+						</div>
+					</div>
+                </li>
+                                                                        			
+            	<li class="fields">
+                    <div class="field">
+                        <label for="profileimage" class="required"><em>*</em>Profile Image</label>
+                        <div class="input-box">
+                            <input type="file" name="profileimage" id="profileimage" title="profileimage" class="input-file required-entry" required/>
+                        </div>
+                    </div>
+				</li>            	
+            </ul>
+        </div>
+        <div class="buttons-set">            
+            <button type="submit" title="Register" class="button"><span><span>Register</span></span></button>
+        </div>
+	</form>
+</div>

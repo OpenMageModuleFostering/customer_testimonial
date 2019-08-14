@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>customer_testimonial</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </summary>
+    <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&#xD;
+&#xD;
+</description>
+    <notes>First Release.</notes>
+    <authors><author><name>Chandan Kumar Singh</name><user>chandan8050</user><email>chandankumar8050@gmail.com</email></author></authors>
+    <date>2017-01-05</date>
+    <time>04:21:28</time>
+    <contents><target name="magecommunity"><dir name="Chandan"><dir name="Testimonial"><dir name="Block"><dir name="Adminhtml"><dir name="Testimonial"><dir name="Edit"><file name="Form.php" hash="ac6e146a725ee37ef1da96bbc5fba9cd"/><dir name="Tab"><file name="Form.php" hash="f5711509573f57b237125d4be774a326"/></dir><file name="Tabs.php" hash="3bc3d0641ccfa570f5ed3899ea3286be"/></dir><file name="Edit.php" hash="5c9bca35a19831cbf068be263be78fe4"/><file name="Grid.php" hash="cc0917b6cd147b13eb547099f3b4aaa9"/></dir><file name="Testimonial.php" hash="46f67d1b882059ef197e6bf148ba7b23"/></dir><file name="Testimonial.php" hash="07f74a8cdda484ac741fea030cbe866a"/></dir><dir name="Helper"><file name="Data.php" hash="1ef8cc41cfe783ecb5def07b6852000a"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Testimonial"><file name="Collection.php" hash="b3206df570245796998ccf0e3a658dd6"/></dir><file name="Testimonial.php" hash="e62506158575a51996aed3693aa5a1fa"/></dir><file name="Status.php" hash="e4d798261b6ce4fe19cfb7d12dbf49a3"/><file name="Testimonial.php" hash="2cb1a7bb3b5a1dc7ae78a4cdf4124a78"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="TestimonialController.php" hash="c9fde22b2f133e6f937808cf794f10fd"/></dir><file name="IndexController.php" hash="3b19bcabc032af64f23a9edfaa00a606"/></dir><dir name="etc"><file name="config.xml" hash="cc8b6c28684e04751cf2143e68eda197"/><file name="system.xml" hash="8cce437660acb4ab76e05ccf08fb807a"/></dir><dir name="sql"><dir name="testimonial_setup"><file name="mysql4-install-1.0.0.php" hash="9122a959eb16d5f53b1f70f74350c915"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Chandan_Testimonial.xml" hash="e4b6b2b86b6f3e3d382ce59ec3fee4d6"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="testimonial.xml" hash="08df54e54e60b674e177be5bda54bff0"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="testimonial.xml" hash="67a832ea748c3fd4b39fd612090ffa50"/></dir><dir name="template"><dir name="testimonial"><file name="newtestimonial.phtml" hash="25d6ef223efd05c3911075e9beffad2d"/><file name="testimonial.phtml" hash="73d4d1e17deddd35b63deafdbf8663f0"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>7.1.0</max></php></required></dependencies>
+</package>
